@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "fmnist_leaf_0",
+      "label": "T-shirt/top",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_1",
+      "label": "Trouser",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_2",
+      "label": "Pullover",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_3",
+      "label": "Dress",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_4",
+      "label": "Coat",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_5",
+      "label": "Sandal",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_6",
+      "label": "Shirt",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_7",
+      "label": "Sneaker",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_8",
+      "label": "Bag",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_leaf_9",
+      "label": "Ankle boot",
+      "is_leaf": true
+    },
+    {
+      "id": "fmnist_int_0",
+      "label": "cluster_hfmnist_int_0",
+      "is_leaf": false
+    },
+    {
+      "id": "fmnist_int_1",
+      "label": "cluster_hfmnist_int_1",
+      "is_leaf": false
+    },
+    {
+      "id": "fmnist_int_2",
+      "label": "cluster_hfmnist_int_2",
+      "is_leaf": false
+    },
+    {
+      "id": "fmnist_int_3",
+      "label": "cluster_hfmnist_int_3",
+      "is_leaf": false
+    },
+    {
+      "id": "fmnist_int_4",
+      "label": "cluster_hfmnist_int_4",
+      "is_leaf": false
+    },
+    {
+      "id": "fmnist_int_5",
+      "label": "cluster_hfmnist_int_5",
+      "is_leaf": false
+    },
+    {
+      "id": "fmnist_int_6",
+      "label": "cluster_hfmnist_int_6",
+      "is_leaf": false
+    },
+    {
+      "id": "fmnist_int_7",
+      "label": "cluster_hfmnist_int_7",
+      "is_leaf": false
+    },
+    {
+      "id": "fmnist_int_8",
+      "label": "cluster_hfmnist_int_8",
+      "is_leaf": false
+    }
+  ],
+  "links": [
+    {
+      "source": "fmnist_int_0",
+      "target": "fmnist_leaf_2"
+    },
+    {
+      "source": "fmnist_int_0",
+      "target": "fmnist_leaf_6"
+    },
+    {
+      "source": "fmnist_int_1",
+      "target": "fmnist_leaf_4"
+    },
+    {
+      "source": "fmnist_int_1",
+      "target": "fmnist_int_0"
+    },
+    {
+      "source": "fmnist_int_2",
+      "target": "fmnist_leaf_1"
+    },
+    {
+      "source": "fmnist_int_2",
+      "target": "fmnist_leaf_3"
+    },
+    {
+      "source": "fmnist_int_3",
+      "target": "fmnist_leaf_5"
+    },
+    {
+      "source": "fmnist_int_3",
+      "target": "fmnist_leaf_7"
+    },
+    {
+      "source": "fmnist_int_4",
+      "target": "fmnist_leaf_0"
+    },
+    {
+      "source": "fmnist_int_4",
+      "target": "fmnist_int_1"
+    },
+    {
+      "source": "fmnist_int_5",
+      "target": "fmnist_leaf_8"
+    },
+    {
+      "source": "fmnist_int_5",
+      "target": "fmnist_leaf_9"
+    },
+    {
+      "source": "fmnist_int_6",
+      "target": "fmnist_int_3"
+    },
+    {
+      "source": "fmnist_int_6",
+      "target": "fmnist_int_5"
+    },
+    {
+      "source": "fmnist_int_7",
+      "target": "fmnist_int_2"
+    },
+    {
+      "source": "fmnist_int_7",
+      "target": "fmnist_int_4"
+    },
+    {
+      "source": "fmnist_int_8",
+      "target": "fmnist_int_6"
+    },
+    {
+      "source": "fmnist_int_8",
+      "target": "fmnist_int_7"
+    }
+  ]
+}

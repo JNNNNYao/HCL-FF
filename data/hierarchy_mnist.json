@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "mnist_leaf_0",
+      "label": "0",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_1",
+      "label": "1",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_2",
+      "label": "2",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_3",
+      "label": "3",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_4",
+      "label": "4",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_5",
+      "label": "5",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_6",
+      "label": "6",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_7",
+      "label": "7",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_8",
+      "label": "8",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_leaf_9",
+      "label": "9",
+      "is_leaf": true
+    },
+    {
+      "id": "mnist_int_0",
+      "label": "cluster_hmnist_int_0",
+      "is_leaf": false
+    },
+    {
+      "id": "mnist_int_1",
+      "label": "cluster_hmnist_int_1",
+      "is_leaf": false
+    },
+    {
+      "id": "mnist_int_2",
+      "label": "cluster_hmnist_int_2",
+      "is_leaf": false
+    },
+    {
+      "id": "mnist_int_3",
+      "label": "cluster_hmnist_int_3",
+      "is_leaf": false
+    },
+    {
+      "id": "mnist_int_4",
+      "label": "cluster_hmnist_int_4",
+      "is_leaf": false
+    },
+    {
+      "id": "mnist_int_5",
+      "label": "cluster_hmnist_int_5",
+      "is_leaf": false
+    },
+    {
+      "id": "mnist_int_6",
+      "label": "cluster_hmnist_int_6",
+      "is_leaf": false
+    },
+    {
+      "id": "mnist_int_7",
+      "label": "cluster_hmnist_int_7",
+      "is_leaf": false
+    },
+    {
+      "id": "mnist_int_8",
+      "label": "cluster_hmnist_int_8",
+      "is_leaf": false
+    }
+  ],
+  "links": [
+    {
+      "source": "mnist_int_0",
+      "target": "mnist_leaf_4"
+    },
+    {
+      "source": "mnist_int_0",
+      "target": "mnist_leaf_9"
+    },
+    {
+      "source": "mnist_int_1",
+      "target": "mnist_leaf_5"
+    },
+    {
+      "source": "mnist_int_1",
+      "target": "mnist_leaf_8"
+    },
+    {
+      "source": "mnist_int_2",
+      "target": "mnist_leaf_3"
+    },
+    {
+      "source": "mnist_int_2",
+      "target": "mnist_int_1"
+    },
+    {
+      "source": "mnist_int_3",
+      "target": "mnist_leaf_7"
+    },
+    {
+      "source": "mnist_int_3",
+      "target": "mnist_int_0"
+    },
+    {
+      "source": "mnist_int_4",
+      "target": "mnist_leaf_2"
+    },
+    {
+      "source": "mnist_int_4",
+      "target": "mnist_leaf_6"
+    },
+    {
+      "source": "mnist_int_5",
+      "target": "mnist_leaf_1"
+    },
+    {
+      "source": "mnist_int_5",
+      "target": "mnist_int_2"
+    },
+    {
+      "source": "mnist_int_6",
+      "target": "mnist_int_4"
+    },
+    {
+      "source": "mnist_int_6",
+      "target": "mnist_int_5"
+    },
+    {
+      "source": "mnist_int_7",
+      "target": "mnist_int_3"
+    },
+    {
+      "source": "mnist_int_7",
+      "target": "mnist_int_6"
+    },
+    {
+      "source": "mnist_int_8",
+      "target": "mnist_leaf_0"
+    },
+    {
+      "source": "mnist_int_8",
+      "target": "mnist_int_7"
+    }
+  ]
+}

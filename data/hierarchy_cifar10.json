@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "cifar10_leaf_0",
+      "label": "airplane",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_1",
+      "label": "car",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_2",
+      "label": "bird",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_3",
+      "label": "cat",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_4",
+      "label": "deer",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_5",
+      "label": "dog",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_6",
+      "label": "frog",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_7",
+      "label": "horse",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_8",
+      "label": "ship",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_leaf_9",
+      "label": "truck",
+      "is_leaf": true
+    },
+    {
+      "id": "cifar10_int_0",
+      "label": "cluster_0",
+      "is_leaf": false
+    },
+    {
+      "id": "cifar10_int_1",
+      "label": "cluster_1",
+      "is_leaf": false
+    },
+    {
+      "id": "cifar10_int_2",
+      "label": "cluster_2",
+      "is_leaf": false
+    },
+    {
+      "id": "cifar10_int_3",
+      "label": "cluster_3",
+      "is_leaf": false
+    },
+    {
+      "id": "cifar10_int_4",
+      "label": "cluster_4",
+      "is_leaf": false
+    },
+    {
+      "id": "cifar10_int_5",
+      "label": "cluster_5",
+      "is_leaf": false
+    },
+    {
+      "id": "cifar10_int_6",
+      "label": "cluster_6",
+      "is_leaf": false
+    },
+    {
+      "id": "cifar10_int_7",
+      "label": "cluster_7",
+      "is_leaf": false
+    },
+    {
+      "id": "cifar10_int_8",
+      "label": "cluster_8",
+      "is_leaf": false
+    }
+  ],
+  "links": [
+    {
+      "source": "cifar10_int_0",
+      "target": "cifar10_leaf_1"
+    },
+    {
+      "source": "cifar10_int_0",
+      "target": "cifar10_leaf_7"
+    },
+    {
+      "source": "cifar10_int_1",
+      "target": "cifar10_leaf_0"
+    },
+    {
+      "source": "cifar10_int_1",
+      "target": "cifar10_leaf_9"
+    },
+    {
+      "source": "cifar10_int_2",
+      "target": "cifar10_leaf_4"
+    },
+    {
+      "source": "cifar10_int_2",
+      "target": "cifar10_leaf_6"
+    },
+    {
+      "source": "cifar10_int_3",
+      "target": "cifar10_leaf_2"
+    },
+    {
+      "source": "cifar10_int_3",
+      "target": "cifar10_leaf_8"
+    },
+    {
+      "source": "cifar10_int_4",
+      "target": "cifar10_leaf_5"
+    },
+    {
+      "source": "cifar10_int_4",
+      "target": "cifar10_int_3"
+    },
+    {
+      "source": "cifar10_int_5",
+      "target": "cifar10_int_1"
+    },
+    {
+      "source": "cifar10_int_5",
+      "target": "cifar10_int_2"
+    },
+    {
+      "source": "cifar10_int_6",
+      "target": "cifar10_leaf_3"
+    },
+    {
+      "source": "cifar10_int_6",
+      "target": "cifar10_int_0"
+    },
+    {
+      "source": "cifar10_int_7",
+      "target": "cifar10_int_4"
+    },
+    {
+      "source": "cifar10_int_7",
+      "target": "cifar10_int_5"
+    },
+    {
+      "source": "cifar10_int_8",
+      "target": "cifar10_int_6"
+    },
+    {
+      "source": "cifar10_int_8",
+      "target": "cifar10_int_7"
+    }
+  ]
+}
